@@ -1,57 +1,68 @@
-# HR-management-system
+# Resturant Project
 
 ## Task 11
 
 ### **Overview**
 
-You will continue building on what you achieved in the last task.
+Today will be the beginning of a multi-lab project, where you will build an resturant project with pairing partners.
 
 ## **Requirements**
 
 ### **Set up your Github Repository***
 
-- Today you will continue working on your `HR-management-system` repo.
-- Update your **README** file to add your changes for today.
-- Checkout a new branch called `events` for today's task.
+- Create a new repository called `Resturant`
+- Add a **README** file to add your changes for each day.
+- Clone this repo to your local machine.
+- Checkout a new branch called `events` for today's lab.
 - Open it in VS code.
 
+You will create only one page for this lab `index.html`.
 ### **Home page**
+1. `Header` for navigating to any other pages.
 
-1. You will add a `form` with the following fields:
-    - Full name
-    - Department `<select>` with following options:
-        - Administration
-        - Marketing
-        - Development
-        - Finance
-    - Level `<select>` with following options:
-        - Junior
-        - Mid-Senior
-        - Senior
-    - Image url
-    - Submit button
+2. You will add a `form` with the following fields:
+    - Food Name.
+    - Types of the food `<select>` with following options:
+        - Fruit and vegetables.
+        - Starchy food.
+        - Dairy.
+        - Protein.
+        - Fat.
+    - Price.
+    - Image url.
+    - Submit button.
 
-2. Create a function to generate a unique four digits employee id number.
+3. `Footer` will have some social media links with copyright.
 
-3. You will add an event listener to get the data from the form instead of having hard coded data.
+### **Javascript**
 
-4. You will refactor the  render prototype function to render each employee information in a separate card in the home page as shown below. Note that you will use images for the employees in the assets directory.
+1. You will create a `constructor` to generate a food object which will be rendered in the main section from your app.js file.
+    - Food ID.
+    - Food Name.
+    - Type.
+    - Price.
+    - Image URL.
 
-![Card](assets/card.png)
+Which You will create an instance each time you submit the `form`, and fill the object from the `form` inputs.
+
+2. Create a function to generate a unique four digits for food id number.
+
+3. You will add an event listener to get the data from the `form` instead of having hard coded data.
+
+4. You will create a `render prototype` function to render each food name with their information from the `form` in the home page as a table view as bellow.
+
+![Card](assets/table.png)
+
+`Note`: You will render the data in the table whenver you submit the `form` (you will use event listener for the `form`).
 
 ### **Style**
 
 1. Add some style for the header and the footer
-2. Use flex to organize the content of the main content.
-3. Add backgrounds, font colors, google fonts and any additional style.
-4. Use a suitable color palette for your website. You can use [ColorHunt](https://colorhunt.co) .
+2. Add backgrounds, font colors, google fonts and any additional style.
+3. Use a suitable color palette for your website. You can use [ColorHunt](https://colorhunt.co) .
 
 **Note:**
 Be creative and make your page professional.
-
-### **Stretch goal**
-
-Separate the employees cards by their department where you will have a separate section for each department.
 
 
 ## Submission Instructions:
@@ -60,5 +71,7 @@ Separate the employees cards by their department where you will have a separate 
 - Deploy to the Github pages.
 - Submit the pull request and deployed version (Live URL) links.
 - Merge `events` with the main branch.
-- What observations or questions do you have about what you’ve learned so far?
-- How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+- Answer these two questions in the submission comments: 
+
+    - What observations or questions do you have about what you’ve learned so far?
+    - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
