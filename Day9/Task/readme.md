@@ -19,10 +19,13 @@ You will continue building on what you achieved in the last task.
 
 1. Replace all of your object literals for the `HR-management-system` with a single constructor function that, when called with the ‘new’ keyword, it creates a new instance.
 
-2. You will refactor the  render function to be a prototype function to render each employee information in a separate card in the home page as shown below. Note that you will use images for the employees in the assets directory.
+2. You will refactor the  render function to be a prototype function to render each employee name , department and employee salary using `document.write()` or `innerHTML` as the following.
 
-![Card](../assets/card.png)
+3. Note that you need to keep the functions that are responsible for **generating employeeID** and **calculating the salary**. 
 
+```
+
+```
 ### **Style**
 
 1. Add some style for the header and the footer
