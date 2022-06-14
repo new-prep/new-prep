@@ -29,7 +29,6 @@ You will create only one page for this lab `index.html`.
         - Protein.
         - Fat.
     - Price.
-    - Image url.
     - Submit button.
 
 3. `Footer` will have some social media links with copyright.
@@ -41,7 +40,6 @@ You will create only one page for this lab `index.html`.
     - Food Name.
     - Type.
     - Price.
-    - Image URL.
 
 Which You will create an instance each time you submit the `form`, and fill the object from the `form` inputs.
 
