@@ -1,16 +1,16 @@
-# Resturant Project
+# Restaurant Project
 
 ## Task 11
 
 ### **Overview**
 
-Today will be the beginning of a multi-lab project, where you will build an resturant project with pairing partners.
+Today will be the beginning of a multi-lab project, where you will build an restaurant project with pairing partners.
 
 ## **Requirements**
 
 ### **Set up your Github Repository***
 
-- Create a new repository called `Resturant`
+- Create a new repository called `Restaurant`
 - Add a **README** file to add your changes for each day.
 - Clone this repo to your local machine.
 - Checkout a new branch called `events` for today's lab.
@@ -51,7 +51,7 @@ Which You will create an instance each time you submit the `form`, and fill the 
 
 ![Card](assets/table.png)
 
-`Note`: You will render the data in the table whenver you submit the `form` (you will use event listener for the `form`).
+`Note`: You will render the data in the table whenever you submit the `form` (you will use event listener for the `form`).
 
 ### **Style**
 
