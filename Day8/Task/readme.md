@@ -48,9 +48,13 @@ Within your javascript file (example: app.js), create separate JS object literal
 
     - Image URL
     - Salary
-2. You will create a function for calculating the salary using the provided table by generating a random number between the minimum and maximum salary for each level, use the below table to calculate the salary depends on the employee level.
 
-3. After calculating the random salary you should calculate the net salary where the tax percent is 7.5.
+2. Create a function to generate a unique four digits employee id number.
+
+
+3. You will create a function for calculating the salary using the provided table by generating a random number between the minimum and maximum salary for each level, use the below table to calculate the salary depends on the employee level.
+
+4. After calculating the random salary you should calculate the net salary where the tax percent is 7.5.
 
     |Level|Min|Max|
     |-----|---|---|
@@ -58,7 +62,7 @@ Within your javascript file (example: app.js), create separate JS object literal
     |Mid-Senior|1000|1500|
     |Junior|500|1000|
 
-4. You will create a render  function to render each employee name with their salary in the home page using `document.write` or you can use `innerHTML` to display them .
+5. You will create a render  function to render each employee name with their salary in the home page using `document.write` or you can use `innerHTML` to display them .
 - The output of the render function in the browser should look like: 
 ```
 Employee name : Ghazi Samer
@@ -82,7 +86,7 @@ Employee salary : 1121
 
 
 
-5. Use the information shown in the table below to create employees instances.
+6. Use the information shown in the table below to create employees instances.
 
     |Employee ID|Full Name|Department|Level|
     |-----------|---------|----------|-----|
