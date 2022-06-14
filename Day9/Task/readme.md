@@ -24,21 +24,31 @@ You will continue building on what you achieved in the last task.
 3. Note that you need to keep the functions that are responsible for **generating employeeID** and **calculating the salary**. 
 
 ```
+Employee name : Ghazi Samer
+Department : Administration
+Employee salary : 1728
 
+Employee name : Lana Ali
+Department : Finance
+Employee salary : 1809
+
+Employee name : Tamara Ayoub
+Department : Administration
+Employee salary : 1589
+
+Employee name : Safi Walid
+Department : Development	
+Employee salary : 1178
+
+Employee name : Rana Saleh
+Department : Development	
+Employee salary : 480
+
+Employee name : Hadi Ahmad
+Department : Finance
+Employee salary : 1121
 ```
-### **Style**
 
-1. Add some style for the header and the footer
-2. Use flex to organize the content of the main content.
-3. Add backgrounds, font colors, google fonts and any additional style.
-4. Use a suitable color palette for your website. You can use [ColorHunt](https://colorhunt.co) .
-
-**Note:**
-Be creative and make your page professional.
-
-### **Stretch goal**
-
-Separate the employees cards by their department where you will have a separate section for each department.
 
 
 ## Submission Instructions:
