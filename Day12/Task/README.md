@@ -1,4 +1,4 @@
-# Resturant Project
+# Restaurant Project
 
 ## Task 12
 
@@ -10,7 +10,7 @@ You will continue building on what you achieved in the last lab.
 
 ### **Set up your Github Repository***
 
-- Today you will continue working on your `Resturant` repo.
+- Today you will continue working on your `Restaurant` repo.
 - Update your **README** file to add your changes for today.
 - Checkout a new branch called `localStorage` for today's lab.
 - Open it in VS code.
