@@ -1,6 +1,6 @@
 # Problem Solving
 
-## Challenge 01
+## Challenge 03
 
 ### For today Problem Solving exercise please follow the new instructions:
 
