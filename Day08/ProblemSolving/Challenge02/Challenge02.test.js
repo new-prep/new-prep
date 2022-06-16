@@ -1,6 +1,6 @@
 "use strict";
 
-const { reverseArray } = require("../code-challenges/challenges-06");
+const { reverseArray , shuffleArray, shuffleString } = require("../code-challenges/challenges-02");
 
 
 describe("Challenge01", () => {
@@ -19,9 +19,16 @@ describe("Challenge01", () => {
       "88",
     ]);
   });
-  test("Find_Max", () => {
-    expect(findMax([12, 32, 22, 45, 78, 12, 50])).toStrictEqual(78);
-    expect(findMax([20, 31, 15, 41, 20, 48])).toStrictEqual(48);
-    expect(findMax([88, 10, 10, 46, 71])).toStrictEqual(88);
+
+  test("shuffle_Array", () => {
+    expect(shuffleArray([2,5,1,3,4,7])).toStrictEqual([2,3,5,4,1,7]);
+    expect(shuffleArray([1,2,3,4,4,3,2,1])).toStrictEqual([1,4,2,3,3,2,4,1]);
+    expect(shuffleArray([1,1,2,2])).toStrictEqual([1,2,1,2]);
+  });
+
+  test("shuffle_String", () => {
+    expect(shuffleString("codeleet",[4,5,6,7,0,2,1,3])).toStrictEqual("leetcode");
+    expect(shuffleString("abc"),[0,1,2]).toStrictEqual("abc");
+    expect(shuffleString("worldhello",[5, 4, 7, 3, 9, 0, 1, 8, 2, 6])).toStrictEqual("helloworld");
   });
 });

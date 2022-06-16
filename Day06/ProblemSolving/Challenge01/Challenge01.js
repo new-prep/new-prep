@@ -1,7 +1,7 @@
 'use strict';
 
 // -------------------------------------------------------------------------------------------------------
-//  Challenge 01-a:
+//  Challenge 01:
 //  Required:
 //
 //  Write a function that takes an array and returns the maximum value in the provided array
@@ -17,7 +17,7 @@ const findMax = (arr)=>{
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
-//  Challenge 01-b:
+//  Challenge 02:
 //  Required:
 //
 //  Write a function that takes an arrays and returns the Sum of the numeric values
@@ -31,14 +31,5 @@ const sumNums = (arr)=>{
     return sum;
 }
 // -------------------------------------------------------------------------------------------------------
+
 module.exports = {findMax , sumNums};
-
-
-
-
-
-
-
-
-
-

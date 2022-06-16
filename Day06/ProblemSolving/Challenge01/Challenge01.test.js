@@ -1,6 +1,6 @@
 "use strict";
 
-const { findMax, sumNums } = require("../code-challenges/challenges-06");
+const { findMax, sumNums } = require("../code-challenges/challenges-01");
 
 
 describe("Challenge01", () => {
