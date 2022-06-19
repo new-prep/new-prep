@@ -1,6 +1,6 @@
 "use strict";
 
-const { runningSumOfArray,removeElementFromArray,oddFiltration } = require("../code-challenges/challenges-04");
+const { runningSumOfArray,removeElementFromArray,oddFiltration } = require("./Challenge04");
 
 describe("Challenge04", () => {
   test("runningSumOfArray", () => {

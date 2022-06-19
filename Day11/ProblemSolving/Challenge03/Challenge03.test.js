@@ -1,6 +1,6 @@
 "use strict";
 
-const {  cvFormatter,   targetArrayInGivenOrder, arrInc } = require("../code-challenges/challenges-03");
+const {  cvFormatter,   targetArrayInGivenOrder, arrInc } = require("./Challenge03");
 
 describe("Challenge03", () => {
   test("CV-Formatter", () => {

@@ -1,6 +1,6 @@
 "use strict";
 
-const { reverseArray , shuffleArray, shuffleString } = require("../code-challenges/challenges-02");
+const { reverseArray , shuffleArray, shuffleString } = require("./Challenge02");
 
 
 describe("Challenge01", () => {
