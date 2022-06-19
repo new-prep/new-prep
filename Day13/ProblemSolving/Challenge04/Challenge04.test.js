@@ -1,20 +1,34 @@
 "use strict";
 
-const { findMax, sumNums } = require("../code-challenges/challenges-06");
+const { runningSumOfArray,removeElementFromArray,oddFiltration } = require("../code-challenges/challenges-04");
 
-
-describe("Challenge01", () => {
-  test("Find_Max", () => {
-    expect(findMax([12, 32, 22, 45, 78, 12, 50])).toStrictEqual(78);
-    expect(findMax([20, 31, 15, 41, 20, 48])).toStrictEqual(48);
-    expect(findMax([88, 10, 10, 46, 71])).toStrictEqual(88);
+describe("Challenge04", () => {
+  test("runningSumOfArray", () => {
+    expect(runningSumOfArray([1,2,3,4])).toStrictEqual([1,3,6,10]);
+    expect(runningSumOfArray([1,1,1,1,1])).toStrictEqual([1,2,3,4,5]);
   });
-
-  test("Sum_Nums", () => {
-    expect(sumNums([78, "sad", 45, "hungry", "agony", 23, 10])).toStrictEqual(
-      156
-    );
-    expect(sumNums([20, "234", "car", 41, 20, "chair"])).toStrictEqual(81);
-    expect(sumNums([88, 10, 10, 46, 71])).toStrictEqual(225);
-  }); 
 });
+
+describe("Challenge04", () => {
+  test("removeElementFromArray", () => { 
+    expect(removeElementFromArray([3,2,2,3], 3)).toStrictEqual([2,2,_,_]);
+    expect(removeElementFromArray([0,1,2,2,3,0,4,2],  2)).toStrictEqual([0,1,3,0,4,_,_,_]);
+  });
+});
+
+describe("Challenge04", () => {
+  test("Get_odd_numbers", () => {
+    let list1 = [20, 54, 89, 41, 2, 31, 111, 15, 0, 31, 200];
+    let list2 = [25, 47, 8, 95, 2, 3, 55, 41];
+    let list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    let res1 = [89, 41, 31, 111, 15, 31];
+    let res2 = [25, 47, 95, 3, 55, 41];
+    let res3 = [1, 3, 5, 7, 9];
+
+    expect(oddFiltration(list1)).toStrictEqual(res1);
+    expect(oddFiltration(list2)).toStrictEqual(res2);
+    expect(oddFiltration(list3)).toStrictEqual(res3);
+  });
+});
+
