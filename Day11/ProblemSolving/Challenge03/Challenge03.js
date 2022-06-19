@@ -1,44 +1,282 @@
-'use strict';
+"use strict";
 
 // -------------------------------------------------------------------------------------------------------
-//  Challenge 01-a:
-//  Required:
+//  Challenge 1:
+//  Optional:
 //
-//  Write a function that takes an array and returns the maximum value in the provided array
-//  without using build-in functions.
+//  Write a function that takes an object and returns the formatted text based on the provided object as the example:
+// 
+// Input:
+//  let obj = {
+//      firstName: 'Ellie',
+//      lastName: 'jon',
+//      age: 67,
+//      hobby: 'Gaming and Sleeping'
+//  }
+//
+//  Output: "my name is Ellie Jon I am 67 YO, and I love Gaming and Sleeping."
+
+//  Note that:
+//  1- The text template is "my name is ** ** I am ** YO, and I love **."
+//  2- The first letters of the firstName and lastName should be capital letter
+
+const objLat = (obj) => {
+    // write your code here
+};
+// -------------------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------------------
+//  Challenge 1:
+//  Optional:
+//
+//  Rekey is receiving info about applicants for his startup company (as array of objects), containing first name,
+//  last name, age and technology they know.
+//  Rekey only cares about the full name and the technology if the applicant has more than one year of Experience
+//
+//  Reformat the array of objects that you are receiving by returning a new array of objects that contains only
+//  fullName and tech if the applicant has more than one year of Experience
+
+// Input:
+// let cvs = [
+//     {
+//         firstName: "Jason",
+//         lastName: "James",
+//         yearsOfExperience: 20,
+//         tech: "JS"
+//     },
+//     {
+//         firstName: "Shira",
+//         lastName: null,
+//         yearsOfExperience: 5,
+//         tech: ".Net"
+//     },
+//     {
+//         firstName: "Dmitri",
+//         lastName: "Akkerman",
+//         yearsOfExperience: 1,
+//         tech: "Python"
+//     },
+//     {
+//         firstName: "Isabella",
+//         lastName: null,
+//         yearsOfExperience: 7,
+//         tech: "Java"
+//     }
+// ]
+//
+// Output:
+// [
+//     {
+//         fullName: "Jason James",
+//         tech: "JS"
+//     },
+//     {
+//         fullName: "Shira",
+//         tech: ".Net"
+//     },
+//     {
+//         fullName: "Isabella",
+//         tech: "Java"
+//     }
+// ]
+
+//  Note that:
+//  1- Full name is first name + last name
+//  2- If one of the names is null don`t add it to the full name
+
+const cvFormatter = (arr) => {
+    // write your code here
+};
+// -------------------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------------------
+//  Challenge 1:
+//  Optional:
+//
+//  Rekey wants to get statistics about the applicants
+//  using the array of objects you will be getting, return an object that has the following properties
+//
+// let result = {
+//     python_devs: 0,
+//     javaScript_devs: 0,
+//     dotNet_devs: 0,
+//     java_devs: 0,
+//     totalApplicants: 0,
+//     rejectedApplicants: 0,
+// }
+//
+// and fill it up based on the results
+
+//  Note that:
+//  1- rejectedApplicants are applications that has both the names empty or null and whoever have one year or less of Experience
+
+const applicationsStatics = (arr) => {
+    // write your code here
+};
+// -------------------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------------------
+//  Challenge 1:
+//  Optional:
+//
+//  A Certain School principal wants to calculate the average score of each class in each grade in the school
+//  so he requested a programmer to solve this issue for him instead of doing it again every time
+//
+//  given the school data, calculate the average score of the students of each class in each grade
+//  then change the avg value for the class
+//  Input:
+let data = {
+    schoolName: "David Academy",
+    capacity: 1000,
+    grades: [
+        {
+            grade: "First",
+            numberOfClasses: 3,
+            classes: [
+                {
+                    avg: 0,
+                    classNumber: "01",
+                    classScores: [
+                        89, 87, 45, 48, 89, 65, 21, 54, 78, 62, 51, 54, 50, 49
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "02",
+                    classScores: [
+                        87, 54, 95, 45, 41, 51, 25, 63, 58, 47, 64, 51, 98, 100
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "03",
+                    classScores: [
+                        74, 85, 20, 51, 59, 58, 62, 71, 74, 99, 84, 71, 38, 70
+                    ]
+                },
+            ]
+        },
+        {
+            grade: "Second",
+            numberOfClasses: 2,
+            classes: [
+                {
+                    avg: 0,
+                    classNumber: "01",
+                    classScores: [
+                        71, 82, 86, 3, 1, 52, 91, 84, 44, 68, 64, 23, 80, 60,
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "02",
+                    classScores: [
+                        86, 39, 71, 17, 61, 76, 60, 54, 42, 65, 49, 75, 96, 70
+                    ]
+                },
+            ]
+        },
+        {
+            grade: "Third",
+            numberOfClasses: 2,
+            classes: [
+                {
+                    avg: 0,
+                    classNumber: "01",
+                    classScores: [
+                        11, 12, 28, 78, 57, 3, 54, 72, 14, 19, 88, 74, 68, 58
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "02",
+                    classScores: [
+                        62, 8, 35, 43, 96, 9, 97, 73, 4, 32, 18, 81, 70, 42
+                    ]
+                },
+            ]
+        },
+        {
+            grade: "Forth",
+            numberOfClasses: 4,
+            classes: [
+                {
+                    avg: 0,
+                    classNumber: "01",
+                    classScores: [
+                        63, 71, 93, 87, 83, 85, 67, 49, 62, 45, 38, 48, 58, 52
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "02",
+                    classScores: [
+                        100, 45, 70, 75, 87, 63, 39, 46, 54, 68, 74, 96, 52, 49
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "03",
+                    classScores: [
+                        97, 54, 80, 95, 69, 31, 88, 84, 50, 81, 67, 34, 41, 87
+                    ]
+                },
+                {
+                    avg: 0,
+                    classNumber: "04",
+                    classScores: [
+                        64, 96, 66, 38, 78, 58, 43, 100, 34, 56, 82, 53, 89, 72
+                    ]
+                },
+            ]
+        },
+    ],
+};
+
+//  Note that:
+//  1- This is not the exact data you will be getting every time and the solution should be dynamic
+//  2- You need to round the average to the nearest lower number 
+
+const classesAvg = (data) => {
+    // write your code here
+};
+// -------------------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------------------
+//  Challenge 2:
+//  Required:
+// Write a function that takes two arrays of integers (nums and index) and 
+// returns a target array under the following rules:
+// Initially target array is empty.
+// From left to right read nums[i] and index[i], insert at index index[i] the
+// value nums[i] in target array.
+// Repeat the previous step until there are no elements to read in nums and index.
+// Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
+// Output: [0,4,1,3,2]
+const targetArrayInGivenOrder = (numsArr,indexArr) => {
+    let targetArr;
+    // write your code here
+    return targetArr;
+};
+// -------------------------------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------------------------------
+//  Challenge 3:
+// Required:
+
+//  Write a function that takes an array of numbers and increase the values by 10
 //  
-// Input: [12, 32, 22, 45, 78, 12, 50]
-// Output: 78
-const findMax = (arr)=>{
-    let max;
-    // write your code here    
-    return max;
+//  Input:
+//  [20, 54, 89, 41]
+//  Output:
+//  [30, 64, 99, 51]
+//  
+
+const arrInc = (arr) => {
+    let result = [];
+    // write your code here
+    return result;
 }
 // -------------------------------------------------------------------------------------------------------
 
-// -------------------------------------------------------------------------------------------------------
-//  Challenge 01-b:
-//  Required:
-//
-//  Write a function that takes an arrays and returns the Sum of the numeric values
-//  inside the array (there could be strings inside), without using built-in functions
-//  
-// Input: [20, '234', 'car', 41, 20, 'chair']
-// Output: 81
-const sumNums = (arr)=>{
-    let sum;
-    // write your code here    
-    return sum;
-}
-// -------------------------------------------------------------------------------------------------------
-module.exports = {findMax , sumNums};
-
-
-
-
-
-
-
-
-
-
+module.exports = { objLat, cvFormatter, applicationsStatics, classesAvg,targetArrayInGivenOrder,arrInc };
