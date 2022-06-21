@@ -3,11 +3,11 @@
 
 ## Overview:
 
-Today you will start setting things up by creating Github account.
+Today you will start setting things up by creating a Github account.
 
 ## Requirements:
 
-1. **Set up your Github account:**
+1. **Set up your GitHub account:**
 
    - Create [Github account](https://github.com/) (Choose a professional username)
 
@@ -37,7 +37,7 @@ Today you will start setting things up by creating Github account.
 
    [good-developer-mindset.](https://www.freecodecamp.org/news/learn-the-fundamentals-of-a-good-developer-mindset-in-15-minutes-81321ab8a682/)
 
-    - As a second paragraph in your README.md file, write what you learned from your reading. 
+    - As the second paragraph in your README.md file, write what you learned from your reading. 
 
    - Use different Markdown language features.
 
