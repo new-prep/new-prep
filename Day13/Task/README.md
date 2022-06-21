@@ -8,11 +8,11 @@ In this task you will continue building on what you achieved in the previous lab
 
 ## **Requirements**
 
-### **_Set up your Github Repository_**
+### **Set up your Github Repository**
 
 - Today you will continue working on your `Restaurant` repo.
 - Update your **README** file to add your changes for today.
-- Checkout a new branch called `chartJS` for today's lab.
+- Check out a new branch called `chartJS` for today's lab.
 - Install chart.js library `npm install chart.js`
 - Open it in VS code.
 
@@ -28,7 +28,7 @@ Below the food types table, create two forms of charts:
 
 - `Bar` chart :
 
-  Now for the bar chart you are supposed to display the prices of each food and its name to a graph that looks similar to this:
+  Now for the bar chart, you are supposed to display the prices of each food and its name on a graph that looks similar to this:
 
   ![Card](./Assets/bar-graph.png)
 
@@ -36,11 +36,11 @@ Take a look at [chart.js](https://www.chartjs.org/docs/latest/) documentation an
 
 ### **Styling**
 
-Add more styling to your website, make it look professional, just ready to lunch.
+Add more styling to your website, make it look professional, and just ready for lunch.
 
 ## Submission Instructions:
 
-- When your work is complete and ready for submission, push to the `chartJS` branch.
+- When your work is complete and ready for submission, push it to the `chartJS` branch.
 - Create a pull request.
 - Deploy to the Github pages.
 - Submit the pull request and deployed version (Live URL) links.
