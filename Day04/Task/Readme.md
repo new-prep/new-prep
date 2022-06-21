@@ -19,7 +19,7 @@ The following information should be provided in your wireframe:
    - ATLASSIAN
    - Figma
 
-2. **Choose for your restaurant website:**
+2. **Choose your restaurant website:**
    - A name
    - Type of dishes that the restaurant will offer
    - Menu
@@ -29,21 +29,21 @@ The following information should be provided in your wireframe:
    - Menu.
    - Section for some dishes images.
    - Or any other necessary sections.
-4. **Convert your wireframe to HTML documents,You will create two pages, `index.html` and `about.html`**:
+4. **Convert your wireframe to HTML documents, You will create two pages, `index.html` and `about.html`**:
    1. Home Page (index.html):
       - In `Header`, add navigating to any other pages. It should also contain the name of the website along with the logo.
       - In `Main`,  use different HTML elements like (divs, paragraph, images, ..etc ).
-      - In `Footer`, you should have copyright and anything you feel it fits in your website.
+      - In `Footer`, you should have copyright and anything you feel fits on your website.
 
    2. About Page:
       - In `Header`, add navigating to any other pages. It should also contain the name of the website along with the logo.
-      - In `Main`, it should contain a section for your information such as(photo, name, description etc…)
-      - In `Footer`, you should have copyright and anything you feel it fits in your website.
-5. ***compleate your work on `My-restaurant` repository *** 
-   - Create a branch called  **“wireframe”**.
-   - add the wireframe image to to the README file 
-   - create html page called **“index.html”**.
-   - your html page should have header, main and footer.
+      - In `Main`, it should contain a section for your information such as(photo, name, description, etc…)
+      - In `Footer`, you should have copyright and anything you feel fits on your website.
+5. **Complete your work on `my-restaurant` repository ** 
+   - Create a branch called  **wireframe**.
+   - Add the wireframe image to the README file 
+   - Create HTML page called **index.html**.
+   - Your HTML page should have a header, main, and footer.
    - Do **A-C-P** 
    - Create a new pull request then merge it.
 
