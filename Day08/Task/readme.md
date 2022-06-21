@@ -4,7 +4,7 @@
 
 ### **Overview**
 
-Today will be the beginning of a multi-Task project, where you will build an employee management system.
+Today will be the beginning of a multi-task project, where you will build an Employee Management System.
 
 ### **Problem domain**
 
@@ -17,20 +17,20 @@ You are building an HR management system for a company, where they can organize 
 - Create a new repository called `HR-management-system`
 - Add a **README** file to add your changes for each day.
 - Clone this repo to your local machine.
-- Checkout a new branch called `literal-object` for today's task.
+- Check out a new branch called `literal-object` for today's task.
 - Open it in VS code.
 
-You will create two pages index.html and accounting.html.
+You will create two pages `index.html` and `accounting.html`.
 
 #### **Home page**
 
 1. Header for navigating to any other pages.
-2. Main render the information for each employee from javascript.
+2. Main render the information for each employee from JavaScript.
 3. Footer will have some social media links with copyright.
 
 ### **Javascript**
 
-1. You will display the employees using literal object , each employee is an object.
+1. You will display the employees using a literal object, each employee is an object.
 Within your javascript file (example: app.js), create separate JS object literals for each employee that outputs the following to :
     Each employee object will have these following properties: 
     - Employee ID
@@ -52,55 +52,55 @@ Within your javascript file (example: app.js), create separate JS object literal
 2. Create a function to generate a unique four digits employee id number.
 
 
-3. You will create a function for calculating the salary using the provided table by generating a random number between the minimum and maximum salary for each level, use the below table to calculate the salary depends on the employee level.
+3. You will create a function for calculating the salary using the provided table by generating a random number between the minimum and maximum salary for each level, use the below table to calculate the salary depending on the employee level.
 
 4. After calculating the random salary you should calculate the net salary where the tax percent is 7.5.
 
-    |Level|Min|Max|
-    |-----|---|---|
-    |Senior|1500|2000|
-    |Mid-Senior|1000|1500|
-    |Junior|500|1000|
+    | Level      | Min  | Max  |
+    | ---------- | ---- | ---- |
+    | Senior     | 1500 | 2000 |
+    | Mid-Senior | 1000 | 1500 |
+    | Junior     | 500  | 1000 |
 
-5. You will create a render  function to render each employee name with their salary in the home page using `document.write` or you can use `innerHTML` to display them .
-- The output of the render function in the browser should look like: 
+5. You will create a render function to render each employee's name with their salary on the home page using `document. write` or you can use `innerHTML` to display them.
+- The output of the render function in the browser should look like this: 
 ```
-Employee name : Ghazi Samer
-Employee salary : 1728
+Employee name: Ghazi Samer
+Employee salary: 1728
 
-Employee name : Lana Ali
-Employee salary : 1809
+Employee name: Lana Ali
+Employee salary: 1809
 
-Employee name : Tamara Ayoub
-Employee salary : 1589
+Employee name: Tamara Ayoub
+Employee salary: 1589
 
-Employee name : Safi Walid
-Employee salary : 1178
+Employee name: Safi Walid
+Employee salary: 1178
 
-Employee name : Rana Saleh
-Employee salary : 480
+Employee name: Rana Saleh
+Employee salary: 480
 
-Employee name : Hadi Ahmad
-Employee salary : 1121
+Employee name: Hadi Ahmad
+Employee salary: 1121
 ```
 
 
 
-6. Use the information shown in the table below to create employees instances.
+6. Use the information shown in the table below to create employee instances.
 
-    |Employee ID|Full Name|Department|Level|
-    |-----------|---------|----------|-----|
-    |1000|Ghazi Samer|Administration|Senior|
-    |1001|Lana Ali|Finance|Senior|
-    |1002|Tamara Ayoub|Marketing|Senior|
-    |1003|Safi Walid|Administration|Mid-Senior|
-    |1004|Omar Zaid|Development|Senior|
-    |1005|Rana Saleh|Development|Junior|
-    |1006|Hadi Ahmad|Finance|Mid-Senior|
+    | Employee ID | Full Name    | Department     | Level      |
+    | ----------- | ------------ | -------------- | ---------- |
+    | 1000        | Ghazi Samer  | Administration | Senior     |
+    | 1001        | Lana Ali     | Finance        | Senior     |
+    | 1002        | Tamara Ayoub | Marketing      | Senior     |
+    | 1003        | Safi Walid   | Administration | Mid-Senior |
+    | 1004        | Omar Zaid    | Development    | Senior     |
+    | 1005        | Rana Saleh   | Development    | Junior     |
+    | 1006        | Hadi Ahmad   | Finance        | Mid-Senior |
 
 ### **Accounting page**
 
-- For now this page should have:
+- For now, this page should have:
 
 1. Header for navigating to any other pages.
 2. Main will be empty for today's task.
