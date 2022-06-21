@@ -9,25 +9,25 @@ You are building a ToDo List Website, where the Users can display their tasks an
 ## Requirements:
 
 1. **Set up your Github Repository:**
-   - Create a new repositry called `todo-project`
+   - Create a new repository called `todo-project`
 
    - Add a **README** file.
    - Clone this repo to your local machine.
-   - Checkout a new branch called `todo-html` for today's task.
+   - Check out a new branch called `todo-html` for today's task.
    - Open it in VS code.
   
 2. **You will create two pages, `index.html` and `about.html`**:
    1. Home Page (index.html):
       - In `Header`, add navigating to any other pages. It should also contain the name of the website along with the logo.
       - In `Main`, render a **table** with two columns, one for the tasks and the second for the status. You should add at least 3 tasks.
-      - In `Footer`, you should have copyright and anything you feel it fits in your website.
+      - In `Footer`, you should have copyright and anything you feel fits on your website.
 
    2. About Page:
       - In `Header`, add navigating to any other pages. It should also contain the name of the website along with the logo.
       - In `Main`, you should contain two sections:
-          - Section for your information such as(photo, name, description etc…)
+          - Section for your information such as(photo, name, description, etc…)
           - Section for static **form** where the user has to provide his contact information (name, email, message) and submit button.
-      - In `Footer`, you should have copyright and anything you feel it fits in your website.
+      - In `Footer`, you should have copyright and anything you feel fits on your website.
 
 3. **Style your app:**
     - Now, it is your job to style the website to be attractive as much as you can.
