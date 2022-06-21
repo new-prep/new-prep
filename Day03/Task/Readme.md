@@ -2,7 +2,7 @@
 
 
 ## Overview:
-Today we will build a website using markdoun language.
+Today we will build a website using Markdown language.
 
 
 ## Requirements: 
@@ -13,20 +13,19 @@ Today we will build a website using markdoun language.
    - Type of dishes that the restaurant will offer
    - Menu
 
- 2. ***Create a repository called `My-restaurant`***
+ 2. **Create a repository called `my-restaurant`**
 
-   - Create a repository and call it  `My-restaurant`.
-   - Add README.md file to your repository.
+   - Create a repository and call it  `my-restaurant`.
+   - Add a README.md file to your repository.
    - Clone the repository to your local machine.
    - Create a branch called  **Init**.
-   - add images and links to the README file.
-   - Do **A-C-P** 
+   - Add images and links to the README file.
+   - Do **A-C-P**.
    - Create a new pull request then merge it.
-   - Deploy your repository on github bages.
+   - Deploy your repository on GitHub pages.
 
 
 ## Submission Instructions:
    
    - Share your pull request link.
-   - Share a link to your deployed site on github pages. 
-
+   - Share a link to your deployed site on GitHub Pages. 
